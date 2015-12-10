@@ -15,7 +15,7 @@ y = [2.81,2.99,3.18,3.42,3.56,3.65]
 ax1.plot(x,y,c='g',label='stock car')
 for x,y in zip(x,y):
     plt.text(x, y, "%.2f" %y, ha='center',va='bottom',\
-    bbox={'facecolor':'#B0E0E6', 'alpha':0.5, 'pad':2.5}) #กล่องสีข้อความ
+    bbox={'facecolor':'#B0E0E6', 'alpha':0.5, 'pad':2.5}) #กล่องสีข้อความแต่ละจุด
     
 w = [5,6]
 z = [3.65, 4] # z[1] ยังไม่ใช่ค่าจริงๆ
