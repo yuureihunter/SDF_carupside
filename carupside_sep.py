@@ -35,7 +35,7 @@ g = [5,6]
 h = [0.9,1.2] #h[1] ยังไม่ใช่ค่าจริงๆ
 ax1.plot(g,h,c='r',label='future diff car')
 for x,y in zip(g,h):
-    plt.text(x, y, '%.2f' % y, ha='left', va= 'bottom',\
+    plt.text(x, y, '%.2f' % y, ha='center', va= 'bottom',\
     bbox={'facecolor':'#FF8C69', 'alpha':0.5, 'pad':2.5})
 
 leg = ax1.legend(loc='lower left')
